@@ -9,7 +9,7 @@ RUN adduser -D $USER \
 && chmod 0440 /etc/sudoers.d/$USER
 
 WORKDIR fivem
-RUN curl https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/1971-fbd5c11df14693e9be8a9b86b02689abfc790f69/fx.tar.xz | tar xJ -C /fivem
+RUN curl https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/3922-d59ca5ee4232a9d636fd71e116f61960e974b29e/fx.tar.xz | tar xJ -C /fivem
 
 USER fivem
 
